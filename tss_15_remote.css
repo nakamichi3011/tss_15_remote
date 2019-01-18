@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+h1, h2, h3 {
+	margin: 10px 0;
+}
+
+.main {
+	background-color: white-smoke;
+	width: auto;
+	height: auto;
+	padding: 20px;
+	border: solid 30px lightgray;
+}
+
+button {
+	font-size: 20px;
+	background: lightgray;
+	width: 190px;
+	height: 90px;
+	border-style: none;
+	border-radius: 20px;
+	margin: 5px;
+	vertical-align: middle;
+	box-shadow:0px 8px #a0a0a0;
+}
+
+button:active{
+	margin-top: 13px;
+	box-shadow: 0px 0px #000;
+}
+
+.cinemadsp {
+	background: orange;
+}
+
+.button_content_header {
+
+}
+
+.button_content_buttons {
+	float: left;
+	width: 200px;
+	height: 110px;
+	text-align: center;
+}
+
+.div_clear {
+	clear: both;
+}
